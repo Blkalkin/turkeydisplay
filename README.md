@@ -160,17 +160,7 @@ function PictureDisplay ({ size, featherCount, featherColors }) {
   //   console.log('PictureDisplay', size, featherCount, featherColors);
   // }, [size, featherCount, featherColors]);
   
-  useEffect(() => {
-    console.log('PictureDisplay size', size);
-  }, [size]);
-
-  useEffect(() => {
-    console.log('PictureDisplay feather count', featherCount);
-  }, [featherCount]);
-
-  useEffect(() => {
-    console.log('PictureDisplay feather colors', featherColors);
-  }, [featherColors]);
+  
 
   return (
   // NOTE: The rest has been omitted since it is unchanged
